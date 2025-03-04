@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Allow: /WhoWeAre
+Allow: /Blog
+Allow: /Careers
+
+Sitemap: https://www.astraliva.com/sitemap.xml
