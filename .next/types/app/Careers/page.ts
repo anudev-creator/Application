@@ -1,4 +1,4 @@
-// File: C:\GitHub\website\app\Careers\page.js
+// File: C:\Users\anude\Documents\Website\Astraliva\astraliva\app\Careers\page.js
 import * as entry from '../../../../app/Careers/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

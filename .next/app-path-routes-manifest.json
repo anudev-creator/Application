@@ -1,1 +1,17 @@
-{"/api/GetInTouch/route":"/api/GetInTouch","/robots.txt/route":"/robots.txt","/favicon.ico/route":"/favicon.ico","/sitemap.xml/route":"/sitemap.xml","/api/Registration/route":"/api/Registration","/Blog/page":"/Blog","/_not-found/page":"/_not-found","/Services/[slug]/page":"/Services/[slug]","/Careers/[open]/page":"/Careers/[open]","/Registration/page":"/Registration","/Blog/[slug]/page":"/Blog/[slug]","/Careers/page":"/Careers","/WhoWeAre/page":"/WhoWeAre","/test/page":"/test","/page":"/"}
+{
+  "/api/GetInTouch/route": "/api/GetInTouch",
+  "/api/Registration/route": "/api/Registration",
+  "/api/verify-captcha/route": "/api/verify-captcha",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/_not-found/page": "/_not-found",
+  "/Blog/[slug]/page": "/Blog/[slug]",
+  "/Blog/page": "/Blog",
+  "/Careers/[open]/page": "/Careers/[open]",
+  "/Careers/page": "/Careers",
+  "/Registration/page": "/Registration",
+  "/Services/[slug]/page": "/Services/[slug]",
+  "/WhoWeAre/page": "/WhoWeAre",
+  "/test/page": "/test",
+  "/page": "/"
+}
