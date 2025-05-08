@@ -59,7 +59,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/Careers": {
+    "/Blog": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -72,8 +72,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/Careers",
-      "dataRoute": "/Careers.rsc",
+      "srcRoute": "/Blog",
+      "dataRoute": "/Blog.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -107,30 +107,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/test": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/test",
-      "dataRoute": "/test.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/WhoWeAre": {
       "experimentalBypassFor": [
         {
@@ -155,7 +131,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/Blog": {
+    "/test": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -168,8 +144,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/Blog",
-      "dataRoute": "/Blog.rsc",
+      "srcRoute": "/test",
+      "dataRoute": "/test.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Careers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/Careers",
+      "dataRoute": "/Careers.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -183,8 +183,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "2605dd2a96732c5d97784a19fc8d7f09",
-    "previewModeSigningKey": "9333d00e25344b3bedf61f0d5db89bee8b4efae220f941b063d1248c764bcc7f",
-    "previewModeEncryptionKey": "372693e6dbbadf107c3404a627305b8b4576483b3ded34d7c0aea88933349ba7"
+    "previewModeId": "d4eaf0578a1ddb311e83adcf694dc4c7",
+    "previewModeSigningKey": "7bf9d0872349545a1d8ddc5aca28d20d0104edaf3c6845c44821658ed2e08e35",
+    "previewModeEncryptionKey": "e64b928e42ea11b923ee9eb9c87f2aaa81900c14d62ac46712b0103e0c93787f"
   }
 }

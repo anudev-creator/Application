@@ -8,10 +8,10 @@
   "/Blog/[slug]/page": "/Blog/[slug]",
   "/Blog/page": "/Blog",
   "/Careers/[open]/page": "/Careers/[open]",
-  "/Careers/page": "/Careers",
   "/Registration/page": "/Registration",
-  "/Services/[slug]/page": "/Services/[slug]",
+  "/Careers/page": "/Careers",
   "/WhoWeAre/page": "/WhoWeAre",
+  "/Services/[slug]/page": "/Services/[slug]",
   "/test/page": "/test",
   "/page": "/"
 }
