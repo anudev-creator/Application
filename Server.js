@@ -95,7 +95,6 @@ async function reader() {
       
     }
   }
-  console.log("Debug_1:"+contentData[6]);
 
   server.get("/content",(req,res)=>{
     res.send(contentData)
@@ -111,7 +110,6 @@ reader().then((ContentData)=>{
 
 // Static routes for individual blog images
 for (let index = 1; index < Count; index++) {
-  console.log(`${index}th blog`);
   server.use(
     `/blogImages/blog${index}`,
     express.static(`BlogPageImage/Blog${index}`)
@@ -119,6 +117,6 @@ for (let index = 1; index < Count; index++) {
 }
 
 
-server.listen(PORT,IP.toString(), () => {
+server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
