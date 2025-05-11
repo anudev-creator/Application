@@ -31,7 +31,6 @@ app.prepare().then(() => {
 
 
 const baseUrl = process.env.BASE_URL_MEDIA;
-const IP = process.env.IP_ADD;
 
 for (let index = 0; index < BlogDataCard.length; index++) {
   try {
@@ -49,7 +48,7 @@ server.use(cors());
 const mainPath = path.join(process.cwd(), "Content");
 
 
-server.get("/Bloglist",(req,res)=>{
+server.get("/A9fLx7qP2dZjK5mR",(req,res)=>{
   res.send(BlogDataCard)
 })
 
@@ -96,7 +95,7 @@ async function reader() {
     }
   }
 
-  server.get("/content",(req,res)=>{
+  server.get("/X8f2Kz7Lq9Vb3NyT1pQwC4rAeMh6JdXs",(req,res)=>{
     res.send(contentData)
   })
 }

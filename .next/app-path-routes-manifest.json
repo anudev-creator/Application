@@ -1,17 +1,17 @@
 {
   "/api/GetInTouch/route": "/api/GetInTouch",
   "/api/Registration/route": "/api/Registration",
+  "/robots.txt/route": "/robots.txt",
   "/api/verify-captcha/route": "/api/verify-captcha",
   "/sitemap.xml/route": "/sitemap.xml",
-  "/robots.txt/route": "/robots.txt",
   "/_not-found/page": "/_not-found",
-  "/Careers/page": "/Careers",
-  "/Blog/[slug]/page": "/Blog/[slug]",
   "/Blog/page": "/Blog",
-  "/Registration/page": "/Registration",
+  "/Blog/[slug]/page": "/Blog/[slug]",
   "/Careers/[open]/page": "/Careers/[open]",
-  "/Services/[slug]/page": "/Services/[slug]",
+  "/Careers/page": "/Careers",
   "/WhoWeAre/page": "/WhoWeAre",
+  "/Registration/page": "/Registration",
+  "/Services/[slug]/page": "/Services/[slug]",
   "/page": "/",
   "/test/page": "/test"
 }
