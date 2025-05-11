@@ -96,7 +96,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\anude\\OneDrive\\Documents\\ASTRALIVA\\Updating",
+    "outputFileTracingRoot": "C:\\Users\\anude\\OneDrive\\Documents\\ASTRALIVA\\astraliva",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -279,10 +279,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "C:\\Users\\anude\\OneDrive\\Documents\\ASTRALIVA\\Updating"
+      "root": "C:\\Users\\anude\\OneDrive\\Documents\\ASTRALIVA\\astraliva"
     }
   },
-  "appDir": "C:\\Users\\anude\\OneDrive\\Documents\\ASTRALIVA\\Updating",
+  "appDir": "C:\\Users\\anude\\OneDrive\\Documents\\ASTRALIVA\\astraliva",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

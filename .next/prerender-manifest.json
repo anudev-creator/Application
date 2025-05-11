@@ -59,7 +59,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/Blog": {
+    "/Careers": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -72,8 +72,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/Blog",
-      "dataRoute": "/Blog.rsc",
+      "srcRoute": "/Careers",
+      "dataRoute": "/Careers.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -98,6 +98,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/Registration",
       "dataRoute": "/Registration.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Blog": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/Blog",
+      "dataRoute": "/Blog.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -154,37 +178,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/Careers": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/Careers",
-      "dataRoute": "/Careers.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "6633303b70e101603245a1093a6db435",
-    "previewModeSigningKey": "1fbc605104baf7ecffa57c639bb4daeeec10217a3d5587a50af271074660aaf7",
-    "previewModeEncryptionKey": "c2e3a4ada6efcaaf9f175ef27feaab0e0b7ee157724ce41e456f1930cf624ed6"
+    "previewModeId": "1d48cb163998b5905263331470e6e2c7",
+    "previewModeSigningKey": "941ea19a746c1385bfe3e67318109bdaeb86df9d38b4e81fc9570934997c8a7f",
+    "previewModeEncryptionKey": "f34a8e0b705591f3374a844be53dce4da902f5d4f23726b412e872898253e926"
   }
 }

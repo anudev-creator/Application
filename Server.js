@@ -6,7 +6,7 @@ const path = require('path');
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
-const PORT = process.env.PORT || 1122;
+const PORT = process.env.PORT || 8080;
 const { BlogDataCard } = require("./Bloglist/DBCardData");
 const cors = require('cors');
 const fs = require("fs");
@@ -46,7 +46,7 @@ for (let index = 0; index < BlogDataCard.length; index++) {
 
 server.use(cors());
 
-const mainPath = path.join(process.cwd(), "content");
+const mainPath = path.join(process.cwd(), "Content");
 
 
 server.get("/Bloglist",(req,res)=>{
