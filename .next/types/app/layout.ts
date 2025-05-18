@@ -1,4 +1,4 @@
-// File: C:\Users\anude\OneDrive\Documents\ASTRALIVA\astraliva\app\layout.js
+// File: C:\Users\anude\OneDrive\Documents\ASTRALIVA\Updating\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

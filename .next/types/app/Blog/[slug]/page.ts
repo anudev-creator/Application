@@ -1,4 +1,4 @@
-// File: C:\Users\anude\OneDrive\Documents\ASTRALIVA\astraliva\app\Blog\[slug]\page.js
+// File: C:\Users\anude\OneDrive\Documents\ASTRALIVA\Updating\app\Blog\[slug]\page.js
 import * as entry from '../../../../../app/Blog/[slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

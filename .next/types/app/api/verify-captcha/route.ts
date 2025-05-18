@@ -1,4 +1,4 @@
-// File: C:\Users\anude\OneDrive\Documents\ASTRALIVA\astraliva\app\api\verify-captcha\route.js
+// File: C:\Users\anude\OneDrive\Documents\ASTRALIVA\Updating\app\api\verify-captcha\route.js
 import * as entry from '../../../../../app/api/verify-captcha/route.js'
 import type { NextRequest } from 'next/server.js'
 
