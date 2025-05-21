@@ -1,6 +1,30 @@
 {
   "version": 4,
   "routes": {
+    "/Careers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/Careers",
+      "dataRoute": "/Careers.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -21,6 +45,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/favicon.ico",
       "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Registration": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/Registration",
+      "dataRoute": "/Registration.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -59,6 +107,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/WhoWeAre": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/WhoWeAre",
+      "dataRoute": "/WhoWeAre.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/sitemap.xml": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -79,30 +151,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/sitemap.xml",
       "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/Registration": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/Registration",
-      "dataRoute": "/Registration.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -135,61 +183,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/WhoWeAre": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/WhoWeAre",
-      "dataRoute": "/WhoWeAre.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/Careers": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/Careers",
-      "dataRoute": "/Careers.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "cc52974adb7e66256c2bbcdf0e160e51",
-    "previewModeSigningKey": "46d9d68aa3ec1b57ced9e2bb1100b7351228020e26b295ebf265f01a3678eca3",
-    "previewModeEncryptionKey": "7afe2b31e034accaa1ca4ec87744ab02805c4ea9bb62a50d7b4fcb8247a4ace5"
+    "previewModeId": "85232d5e6f0ace86847f8ec0909b4e04",
+    "previewModeSigningKey": "5c37c0283b5aa6cc95d6940bcf7b449529806b4d8f92753cf6b31571830b5b10",
+    "previewModeEncryptionKey": "2b431ff9d43c073972b6aeb2b7be051dbe1be043efdc0680d6b98095733ec9bb"
   }
 }
