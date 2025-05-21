@@ -1,11 +1,11 @@
 {
   "version": 4,
   "routes": {
-    "/sitemap.xml": {
+    "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "application/xml",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap.xml/layout,_N_T_/sitemap.xml/route,_N_T_/sitemap.xml"
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
       },
       "experimentalBypassFor": [
         {
@@ -19,8 +19,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/sitemap.xml",
+      "srcRoute": "/favicon.ico",
       "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Registration": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/Registration",
+      "dataRoute": "/Registration.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Careers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/Careers",
+      "dataRoute": "/Careers.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -59,35 +107,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/favicon.ico": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "image/x-icon",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/favicon.ico",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/WhoWeAre": {
       "experimentalBypassFor": [
         {
@@ -103,6 +122,35 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/WhoWeAre",
       "dataRoute": "/WhoWeAre.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sitemap.xml": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "application/xml",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap.xml/layout,_N_T_/sitemap.xml/route,_N_T_/sitemap.xml"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sitemap.xml",
+      "dataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -135,61 +183,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/Careers": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/Careers",
-      "dataRoute": "/Careers.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/Registration": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/Registration",
-      "dataRoute": "/Registration.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "5013b1f84af381c1b3393722c82dc01b",
-    "previewModeSigningKey": "42338c6ad29a1d77c71ca04d9040aeeffc0e16ceeb8a3a37dab88b60c244d10a",
-    "previewModeEncryptionKey": "587b06f11858e8f376efb33a44d2077270b3beed34be90a3620bfc2ebda6c1f4"
+    "previewModeId": "075f93629af87c70ef72b60d842efa90",
+    "previewModeSigningKey": "d0b07ae1f1c10e14d85d7caca8d2a8f616d5334b02975edbeb502f7d2e259961",
+    "previewModeEncryptionKey": "e3afa582f1fd9ec600317149587bb8ca65bdb7417e7a1b06b443f9c63137b765"
   }
 }
