@@ -30,6 +30,7 @@ app.prepare().then(() => {
 });
 
 
+
 const baseUrl = process.env.BASE_URL_MEDIA;
 
 for (let index = 0; index < BlogDataCard.length; index++) {
@@ -52,11 +53,6 @@ server.get("/A9fLx7qP2dZjK5mR",(req,res)=>{
   res.send(BlogDataCard)
 })
 
-// server.get("/", (req, res) => {
-//     console.log(BlogDataCard);
-    
-//     res.send(`<pre>${JSON.stringify(BlogDataCard, null, 2)}</pre>`);
-// });
 
 const Count = (BlogDataCard.length+1);
 

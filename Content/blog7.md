@@ -43,8 +43,7 @@ test cases:
 1. Use awscli to attempt bucket listing:
 2. aws s3 ls s3://xyz-company-bucket --no-sign-request
 3. If files are listed, the bucket has overly permissive ACLs.
-4. Alternatively, try:\
-
+4. Alternatively, try:
     - curl -X GET https://xyz-company-bucket.s3.amazonaws.com
     - If it returns a list of object names, the bucket is misconfigured.
 
@@ -125,11 +124,8 @@ credentials: "include"
 **🔹 Steps:**
 
 1. If you find a signed URL, extract the Expires parameter:
-
 2. https://xyz-company-bucket.s3.amazonaws.com/private-data.pdf?X-Amz-Expires=3600
-
 3. Modify the timestamp (Expires=9999999999) and test if the link still works.
-
 4. If the modified URL works, signed URLs are insecurely configured.
 
 # Scenario 8: Checking for Logging & Monitoring Issues
